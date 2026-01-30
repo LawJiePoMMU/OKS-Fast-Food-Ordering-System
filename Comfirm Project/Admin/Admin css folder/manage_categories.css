@@ -1,0 +1,89 @@
+:root {
+    --primary-red: #D50032;
+    --bg-gray: #f8fafc;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-gray);
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: #bdc3c7;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #fff;
+    background-color: var(--primary-red);
+    border-radius: 5px;
+}
+
+.brand-wrapper {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #495057;
+}
+
+.btn-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logout-link {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+.logout-link:hover {
+    background-color: #dc3545;
+}
+
+.status-btn {
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.status-active {
+    background-color: #198754;
+    color: white;
+    border: 1px solid #198754;
+}
+
+.status-active:hover {
+    background-color: #157347;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.status-inactive {
+    background-color: #6c757d;
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+.status-inactive:hover {
+    background-color: #5c636a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cell-name {
+    font-weight: bold;
+}

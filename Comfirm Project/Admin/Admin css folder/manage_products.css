@@ -1,0 +1,93 @@
+:root {
+    --primary-red: #D50032;
+    --bg-gray: #f8fafc;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-gray);
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: #bdc3c7;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #fff;
+    background-color: var(--primary-red);
+    border-radius: 5px;
+}
+
+.brand-wrapper {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #495057;
+}
+
+.logout-link {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+.logout-link:hover {
+    background-color: #dc3545;
+}
+
+.product-img-thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.badge {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.toggle-status-btn {
+    width: 80px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-success.toggle-status-btn {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-secondary.toggle-status-btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.desc-cell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

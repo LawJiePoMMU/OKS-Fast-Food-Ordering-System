@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.checkout-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 300px;
+}
+
+.section-title {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.btn-place-order {
+    background-color: #D50032;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-place-order:hover {
+    background-color: #b00020;
+    transform: translateY(-2px);
+}
+
+.summary-box {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed #ccc;
+}
+
+.address-checkbox-card {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.select-wrapper {
+    position: relative;
+    height: 58px;
+}
+
+.form-select-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form-select-scroll:focus {
+    z-index: 100;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

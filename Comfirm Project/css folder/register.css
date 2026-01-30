@@ -1,0 +1,158 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('../OKS.jpg'); /* 注意路径 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../OKS.jpg') no-repeat center center / cover;
+}
+
+.full-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.register-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.reg-title h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+    color: #D50032;
+}
+
+.reg-title p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.oks-input {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.mobile-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.mobile-container:focus-within {
+    border-bottom: 2px solid #D50032;
+}
+
+.prefix {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 5px;
+    padding-left: 5px;
+    user-select: none;
+}
+
+.mobile-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 0;
+    font-size: 15px;
+    background: transparent;
+}
+
+.row-split {
+    display: flex;
+    gap: 15px;
+}
+
+.col-half {
+    flex: 1;
+}
+
+
+.oks-input:focus {
+    border-bottom: 2px solid #D50032;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #D50032;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(213, 0, 50, 0.3);
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #b00020;
+    transform: translateY(-2px);
+}
+
+.login-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-link a {
+    color: #D50032;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-link-logo {
+    display: inline-block;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 24px;
+    color: #D50032;
+    text-decoration: none;
+    font-style: italic;
+    margin-bottom: 20px;
+}

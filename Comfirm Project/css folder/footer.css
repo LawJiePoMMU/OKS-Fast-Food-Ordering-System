@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --oks-red: #D50032;
+    --oks-dark: #121212;
+    --oks-gray: #1e1e1e;
+    --text-main: #ffffff;
+    --text-muted: #b0b0b0;
+}
+
+.footer {
+    background-color: var(--oks-dark);
+    background-image: none !important;
+    color: var(--text-main);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+    margin-top: auto;
+    position: relative;
+    border-top: 4px solid var(--oks-red);
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-about {
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-logo {
+    width: 90px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background: white;
+    padding: 5px;
+}
+
+.footer-about p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon-link i {
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icon-link img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.social-icon-link:hover {
+    background-color: var(--oks-red);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(213, 0, 50, 0.4);
+}
+
+.footer-links,
+.footer-contact {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 3px;
+    background-color: var(--oks-red);
+    border-radius: 2px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.footer-links ul li a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links ul li a:hover {
+    color: var(--oks-red);
+    transform: translateX(5px);
+}
+
+.footer-contact p {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact i {
+    color: var(--oks-red);
+    width: 20px;
+    text-align: center;
+}
+
+.payment-section {
+    margin-top: 30px;
+}
+
+.payment-title {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.payment-card {
+    background: #fff;
+    height: 35px;
+    width: 55px;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.payment-card:hover {
+    transform: translateY(-2px);
+}
+
+.payment-card img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.footer-copyright {
+    background-color: #000;
+    margin-top: 60px;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+.footer-copyright p {
+    color: #666;
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer-copyright a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-copyright a:hover {
+    color: var(--oks-red);
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-about p {
+        max-width: 100%;
+    }
+}

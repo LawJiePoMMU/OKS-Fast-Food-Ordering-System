@@ -1,0 +1,77 @@
+:root {
+    --primary-red: #D50032;
+    --bg-gray: #f8fafc;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-gray);
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: #bdc3c7;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #fff;
+    background-color: var(--primary-red);
+    border-radius: 5px;
+}
+
+.brand-wrapper {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #495057;
+}
+
+.logout-link {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+.logout-link:hover {
+    background-color: #dc3545;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-square {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.table-custom thead {
+    background-color: #f8fafc;
+    color: #64748b;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
