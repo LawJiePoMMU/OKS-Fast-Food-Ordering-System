@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKS Fast Food</title>
+    <title>Login - OKS Fast Food</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css folder/login.css">
 </head>
@@ -72,5 +72,6 @@ if (isset($_POST['submit'])) {
     <script src="java script folder/login.js"></script>
 
 </body>
+
 
 </html>
