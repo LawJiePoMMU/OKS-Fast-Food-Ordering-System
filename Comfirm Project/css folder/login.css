@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background-image: url('../OKS.jpg'); 
+    background-image: url('../image/OKS.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,4 +107,5 @@ body {
     color: #D50032;
     font-weight: bold;
     text-decoration: none;
+
 }
