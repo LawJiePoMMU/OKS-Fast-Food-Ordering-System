@@ -5,7 +5,7 @@
     <div class="footer-container">
 
         <div class="footer-about">
-            <img src="OKS.jpg" alt="OKS Logo" class="footer-logo" />
+            <img src="image/OKS.jpg" alt="OKS Logo" class="footer-logo" />
             <p>
                 The OKS Standard. Founded by Ong Keng Seng, OKS redefines fast-food aesthetics.
                 Driven by obsession with detail, we ensure every meal brings a smile
@@ -67,4 +67,5 @@
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
         </p>
     </div>
+
 </footer>
