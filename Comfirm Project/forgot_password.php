@@ -32,7 +32,7 @@ if (isset($_POST['reset_password'])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Forgot Password - OKS</title>
+    <title>Forgot Password - OKS Fast Food</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css folder/forgot_password.css">
 </head>
@@ -72,5 +72,6 @@ if (isset($_POST['reset_password'])) {
 
     <script src="java script folder/forgot_password.js"></script>
 </body>
+
 
 </html>
