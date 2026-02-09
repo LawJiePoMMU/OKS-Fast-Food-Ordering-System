@@ -115,7 +115,7 @@ $result_users = mysqli_query($conn, $sql_users);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manage Users - OKS Admin</title>
+    <title> Manage Users - OKS Admin </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -376,5 +376,6 @@ $result_users = mysqli_query($conn, $sql_users);
     <script src="Admin java script folder/manage_users.js"></script>
 
 </body>
+
 
 </html>
