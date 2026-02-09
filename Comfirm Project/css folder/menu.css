@@ -4,7 +4,7 @@ body {
 }
 
 .hero-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../OKS.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/OKS.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -123,4 +123,5 @@ body {
 #modal_desc::-webkit-scrollbar-thumb {
     background-color: #ccc;
     border-radius: 4px;
+
 }
