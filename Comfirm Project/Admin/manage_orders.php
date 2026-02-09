@@ -85,7 +85,7 @@ $result_history = mysqli_query($conn, $sql_history);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manage Orders - OKS Admin</title>
+    <title> Manage Orders - OKS Admin </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Admin css folder/manage_orders.css">
@@ -383,5 +383,6 @@ $result_history = mysqli_query($conn, $sql_history);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="Admin java script folder/manage_orders.js"></script>
 </body>
+
 
 </html>
