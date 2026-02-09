@@ -130,7 +130,8 @@ $display_mobile = preg_replace('/^(\+?60|0)/', '', $db_mobile);
     <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Customer java script folder/profile.js"></script>
+    <script src="java script folder/profile.js"></script>
 </body>
+
 
 </html>
